@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA071E79228A555F0061D05B /* MLWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA071E78228A555F0061D05B /* MLWebViewController.m */; };
+		AA071E7D228A93C50061D05B /* MLWebViewActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = AA071E7C228A93C50061D05B /* MLWebViewActivity.m */; };
+		AA071E7F228A978D0061D05B /* MLWebView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AA071E7E228A978C0061D05B /* MLWebView.bundle */; };
+		AA071E83228A9C2D0061D05B /* MLSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA071E82228A9C2D0061D05B /* MLSecurityPolicy.m */; };
+		AA071E89228A9F450061D05B /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = AA071E86228A9F450061D05B /* NJKWebViewProgress.m */; };
+		AA071E8A228A9F450061D05B /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA071E88228A9F450061D05B /* NJKWebViewProgressView.m */; };
+		AA071E8E228AB5270061D05B /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = AA071E8D228AB5270061D05B /* Aspects.m */; };
+		AA071EA0228AB9750061D05B /* AXPracticalHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AA071E90228AB9750061D05B /* AXPracticalHUD.bundle */; };
+		AA071EA1228AB9750061D05B /* AXPracticalHUDAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = AA071E93228AB9750061D05B /* AXPracticalHUDAnimator.m */; };
+		AA071EA2228AB9750061D05B /* AXPracticalHUDContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA071E96228AB9750061D05B /* AXPracticalHUDContentView.m */; };
+		AA071EA3228AB9750061D05B /* AXCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA071E9A228AB9750061D05B /* AXCircleProgressView.m */; };
+		AA071EA4228AB9750061D05B /* AXBarProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA071E9B228AB9750061D05B /* AXBarProgressView.m */; };
+		AA071EA5228AB9750061D05B /* AXGradientProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA071E9D228AB9750061D05B /* AXGradientProgressView.m */; };
+		AA071EA6228AB9750061D05B /* AXPracticalHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = AA071E9F228AB9750061D05B /* AXPracticalHUD.m */; };
+		AA071EB0228ABB990061D05B /* AXBreachedAnnulusIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA071EA9228ABB990061D05B /* AXBreachedAnnulusIndicatorView.m */; };
+		AA071EB1228ABB990061D05B /* AXIndicatorView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AA071EAC228ABB990061D05B /* AXIndicatorView.bundle */; };
+		AA071EB2228ABB990061D05B /* AXActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA071EAD228ABB990061D05B /* AXActivityIndicatorView.m */; };
+		AA071EB3228ABB990061D05B /* AXSpinningWaitCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = AA071EAE228ABB990061D05B /* AXSpinningWaitCursor.m */; };
+		AA071EB7228ABBE10061D05B /* AXPopNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA071EB5228ABBE10061D05B /* AXPopNavigationController.m */; };
+		AA071EBF228AC40E0061D05B /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA071EB9228AC40E0061D05B /* TableViewController.m */; };
+		AA071EC3228AD9530061D05B /* Swift.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AA071EC2228AD9530061D05B /* Swift.pdf */; };
 		AA6384BC22894CC50033A125 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6384BB22894CC50033A125 /* AppDelegate.m */; };
 		AA6384BF22894CC50033A125 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6384BE22894CC50033A125 /* ViewController.m */; };
 		AA6384C222894CC50033A125 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA6384C022894CC50033A125 /* Main.storyboard */; };
@@ -21,6 +42,45 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA071E77228A555F0061D05B /* MLWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLWebViewController.h; sourceTree = "<group>"; };
+		AA071E78228A555F0061D05B /* MLWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLWebViewController.m; sourceTree = "<group>"; };
+		AA071E7B228A93C50061D05B /* MLWebViewActivity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLWebViewActivity.h; sourceTree = "<group>"; };
+		AA071E7C228A93C50061D05B /* MLWebViewActivity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLWebViewActivity.m; sourceTree = "<group>"; };
+		AA071E7E228A978C0061D05B /* MLWebView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MLWebView.bundle; sourceTree = "<group>"; };
+		AA071E81228A9C2D0061D05B /* MLSecurityPolicy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLSecurityPolicy.h; sourceTree = "<group>"; };
+		AA071E82228A9C2D0061D05B /* MLSecurityPolicy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLSecurityPolicy.m; sourceTree = "<group>"; };
+		AA071E85228A9F450061D05B /* NJKWebViewProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgressView.h; sourceTree = "<group>"; };
+		AA071E86228A9F450061D05B /* NJKWebViewProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgress.m; sourceTree = "<group>"; };
+		AA071E87228A9F450061D05B /* NJKWebViewProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgress.h; sourceTree = "<group>"; };
+		AA071E88228A9F450061D05B /* NJKWebViewProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgressView.m; sourceTree = "<group>"; };
+		AA071E8C228AB5270061D05B /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		AA071E8D228AB5270061D05B /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		AA071E90228AB9750061D05B /* AXPracticalHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AXPracticalHUD.bundle; sourceTree = "<group>"; };
+		AA071E91228AB9750061D05B /* AXPracticalHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXPracticalHUD.h; sourceTree = "<group>"; };
+		AA071E93228AB9750061D05B /* AXPracticalHUDAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXPracticalHUDAnimator.m; sourceTree = "<group>"; };
+		AA071E94228AB9750061D05B /* AXPracticalHUDAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXPracticalHUDAnimator.h; sourceTree = "<group>"; };
+		AA071E96228AB9750061D05B /* AXPracticalHUDContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXPracticalHUDContentView.m; sourceTree = "<group>"; };
+		AA071E97228AB9750061D05B /* AXPracticalHUDContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXPracticalHUDContentView.h; sourceTree = "<group>"; };
+		AA071E99228AB9750061D05B /* AXGradientProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXGradientProgressView.h; sourceTree = "<group>"; };
+		AA071E9A228AB9750061D05B /* AXCircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXCircleProgressView.m; sourceTree = "<group>"; };
+		AA071E9B228AB9750061D05B /* AXBarProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXBarProgressView.m; sourceTree = "<group>"; };
+		AA071E9C228AB9750061D05B /* AXCircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXCircleProgressView.h; sourceTree = "<group>"; };
+		AA071E9D228AB9750061D05B /* AXGradientProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXGradientProgressView.m; sourceTree = "<group>"; };
+		AA071E9E228AB9750061D05B /* AXBarProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXBarProgressView.h; sourceTree = "<group>"; };
+		AA071E9F228AB9750061D05B /* AXPracticalHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXPracticalHUD.m; sourceTree = "<group>"; };
+		AA071EA8228ABB990061D05B /* AXActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXActivityIndicatorView.h; sourceTree = "<group>"; };
+		AA071EA9228ABB990061D05B /* AXBreachedAnnulusIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXBreachedAnnulusIndicatorView.m; sourceTree = "<group>"; };
+		AA071EAA228ABB990061D05B /* AXSpinningWaitCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXSpinningWaitCursor.h; sourceTree = "<group>"; };
+		AA071EAB228ABB990061D05B /* AXIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXIndicatorView.h; sourceTree = "<group>"; };
+		AA071EAC228ABB990061D05B /* AXIndicatorView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AXIndicatorView.bundle; sourceTree = "<group>"; };
+		AA071EAD228ABB990061D05B /* AXActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXActivityIndicatorView.m; sourceTree = "<group>"; };
+		AA071EAE228ABB990061D05B /* AXSpinningWaitCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXSpinningWaitCursor.m; sourceTree = "<group>"; };
+		AA071EAF228ABB990061D05B /* AXBreachedAnnulusIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXBreachedAnnulusIndicatorView.h; sourceTree = "<group>"; };
+		AA071EB5228ABBE10061D05B /* AXPopNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXPopNavigationController.m; sourceTree = "<group>"; };
+		AA071EB6228ABBE10061D05B /* AXPopNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXPopNavigationController.h; sourceTree = "<group>"; };
+		AA071EB9228AC40E0061D05B /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		AA071EBE228AC40E0061D05B /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		AA071EC2228AD9530061D05B /* Swift.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Swift.pdf; sourceTree = "<group>"; };
 		AA6384B722894CC50033A125 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA6384BA22894CC50033A125 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AA6384BB22894CC50033A125 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -49,9 +109,143 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA071E76228A550B0061D05B /* MLWKWebView */ = {
+			isa = PBXGroup;
+			children = (
+				AA071E77228A555F0061D05B /* MLWebViewController.h */,
+				AA071E78228A555F0061D05B /* MLWebViewController.m */,
+				AA071E7E228A978C0061D05B /* MLWebView.bundle */,
+				AA071EB4228ABBE00061D05B /* AXNavigationBackItemInjection */,
+				AA071EA7228ABB990061D05B /* AXIndicatorView */,
+				AA071E8B228AB51E0061D05B /* Aspects */,
+				AA071E80228A9BD20061D05B /* Security */,
+				AA071E7A228A93A40061D05B /* Activity */,
+				AA071E84228A9F450061D05B /* NJKWebViewProgress */,
+				AA071E8F228AB9750061D05B /* AXPracticalHUD */,
+			);
+			name = MLWKWebView;
+			path = ../MLWKWebView;
+			sourceTree = "<group>";
+		};
+		AA071E7A228A93A40061D05B /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				AA071E7B228A93C50061D05B /* MLWebViewActivity.h */,
+				AA071E7C228A93C50061D05B /* MLWebViewActivity.m */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		AA071E80228A9BD20061D05B /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				AA071E81228A9C2D0061D05B /* MLSecurityPolicy.h */,
+				AA071E82228A9C2D0061D05B /* MLSecurityPolicy.m */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		AA071E84228A9F450061D05B /* NJKWebViewProgress */ = {
+			isa = PBXGroup;
+			children = (
+				AA071E87228A9F450061D05B /* NJKWebViewProgress.h */,
+				AA071E86228A9F450061D05B /* NJKWebViewProgress.m */,
+				AA071E85228A9F450061D05B /* NJKWebViewProgressView.h */,
+				AA071E88228A9F450061D05B /* NJKWebViewProgressView.m */,
+			);
+			path = NJKWebViewProgress;
+			sourceTree = "<group>";
+		};
+		AA071E8B228AB51E0061D05B /* Aspects */ = {
+			isa = PBXGroup;
+			children = (
+				AA071E8C228AB5270061D05B /* Aspects.h */,
+				AA071E8D228AB5270061D05B /* Aspects.m */,
+			);
+			path = Aspects;
+			sourceTree = "<group>";
+		};
+		AA071E8F228AB9750061D05B /* AXPracticalHUD */ = {
+			isa = PBXGroup;
+			children = (
+				AA071E90228AB9750061D05B /* AXPracticalHUD.bundle */,
+				AA071E91228AB9750061D05B /* AXPracticalHUD.h */,
+				AA071E92228AB9750061D05B /* Animators */,
+				AA071E95228AB9750061D05B /* ContentView */,
+				AA071E98228AB9750061D05B /* ProgressViews */,
+				AA071E9F228AB9750061D05B /* AXPracticalHUD.m */,
+			);
+			path = AXPracticalHUD;
+			sourceTree = "<group>";
+		};
+		AA071E92228AB9750061D05B /* Animators */ = {
+			isa = PBXGroup;
+			children = (
+				AA071E93228AB9750061D05B /* AXPracticalHUDAnimator.m */,
+				AA071E94228AB9750061D05B /* AXPracticalHUDAnimator.h */,
+			);
+			path = Animators;
+			sourceTree = "<group>";
+		};
+		AA071E95228AB9750061D05B /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				AA071E96228AB9750061D05B /* AXPracticalHUDContentView.m */,
+				AA071E97228AB9750061D05B /* AXPracticalHUDContentView.h */,
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
+		AA071E98228AB9750061D05B /* ProgressViews */ = {
+			isa = PBXGroup;
+			children = (
+				AA071E99228AB9750061D05B /* AXGradientProgressView.h */,
+				AA071E9A228AB9750061D05B /* AXCircleProgressView.m */,
+				AA071E9B228AB9750061D05B /* AXBarProgressView.m */,
+				AA071E9C228AB9750061D05B /* AXCircleProgressView.h */,
+				AA071E9D228AB9750061D05B /* AXGradientProgressView.m */,
+				AA071E9E228AB9750061D05B /* AXBarProgressView.h */,
+			);
+			path = ProgressViews;
+			sourceTree = "<group>";
+		};
+		AA071EA7228ABB990061D05B /* AXIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				AA071EA8228ABB990061D05B /* AXActivityIndicatorView.h */,
+				AA071EA9228ABB990061D05B /* AXBreachedAnnulusIndicatorView.m */,
+				AA071EAA228ABB990061D05B /* AXSpinningWaitCursor.h */,
+				AA071EAB228ABB990061D05B /* AXIndicatorView.h */,
+				AA071EAC228ABB990061D05B /* AXIndicatorView.bundle */,
+				AA071EAD228ABB990061D05B /* AXActivityIndicatorView.m */,
+				AA071EAE228ABB990061D05B /* AXSpinningWaitCursor.m */,
+				AA071EAF228ABB990061D05B /* AXBreachedAnnulusIndicatorView.h */,
+			);
+			path = AXIndicatorView;
+			sourceTree = "<group>";
+		};
+		AA071EB4228ABBE00061D05B /* AXNavigationBackItemInjection */ = {
+			isa = PBXGroup;
+			children = (
+				AA071EB5228ABBE10061D05B /* AXPopNavigationController.m */,
+				AA071EB6228ABBE10061D05B /* AXPopNavigationController.h */,
+			);
+			path = AXNavigationBackItemInjection;
+			sourceTree = "<group>";
+		};
+		AA071EB8228AC3EF0061D05B /* Samples */ = {
+			isa = PBXGroup;
+			children = (
+				AA071EBE228AC40E0061D05B /* TableViewController.h */,
+				AA071EB9228AC40E0061D05B /* TableViewController.m */,
+			);
+			path = Samples;
+			sourceTree = "<group>";
+		};
 		AA6384AE22894CC50033A125 = {
 			isa = PBXGroup;
 			children = (
+				AA071E76228A550B0061D05B /* MLWKWebView */,
 				AA638ACC228983EF0033A125 /* OCJSHtml */,
 				AA6384B922894CC50033A125 /* Demo */,
 				AA6384B822894CC50033A125 /* Products */,
@@ -69,6 +263,8 @@
 		AA6384B922894CC50033A125 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				AA071EC2228AD9530061D05B /* Swift.pdf */,
+				AA071EB8228AC3EF0061D05B /* Samples */,
 				AA6384BA22894CC50033A125 /* AppDelegate.h */,
 				AA6384BB22894CC50033A125 /* AppDelegate.m */,
 				AA6384BD22894CC50033A125 /* ViewController.h */,
@@ -177,7 +373,11 @@
 			files = (
 				AA6384C722894CCA0033A125 /* LaunchScreen.storyboard in Resources */,
 				AA638AD6228983EF0033A125 /* index.css in Resources */,
+				AA071EC3228AD9530061D05B /* Swift.pdf in Resources */,
 				AA638AD5228983EF0033A125 /* index.html in Resources */,
+				AA071E7F228A978D0061D05B /* MLWebView.bundle in Resources */,
+				AA071EA0228AB9750061D05B /* AXPracticalHUD.bundle in Resources */,
+				AA071EB1228ABB990061D05B /* AXIndicatorView.bundle in Resources */,
 				AA638AD7228983EF0033A125 /* index.js in Resources */,
 				AA6384C422894CCA0033A125 /* Assets.xcassets in Resources */,
 				AA638AD9228983EF0033A125 /* .project in Resources */,
@@ -193,9 +393,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA071EB2228ABB990061D05B /* AXActivityIndicatorView.m in Sources */,
+				AA071EB0228ABB990061D05B /* AXBreachedAnnulusIndicatorView.m in Sources */,
+				AA071EA2228AB9750061D05B /* AXPracticalHUDContentView.m in Sources */,
+				AA071EBF228AC40E0061D05B /* TableViewController.m in Sources */,
+				AA071E83228A9C2D0061D05B /* MLSecurityPolicy.m in Sources */,
+				AA071EB7228ABBE10061D05B /* AXPopNavigationController.m in Sources */,
+				AA071EA4228AB9750061D05B /* AXBarProgressView.m in Sources */,
+				AA071EA1228AB9750061D05B /* AXPracticalHUDAnimator.m in Sources */,
 				AA6384BF22894CC50033A125 /* ViewController.m in Sources */,
+				AA071E8E228AB5270061D05B /* Aspects.m in Sources */,
+				AA071E7D228A93C50061D05B /* MLWebViewActivity.m in Sources */,
 				AA6384CA22894CCA0033A125 /* main.m in Sources */,
+				AA071EA5228AB9750061D05B /* AXGradientProgressView.m in Sources */,
+				AA071E79228A555F0061D05B /* MLWebViewController.m in Sources */,
+				AA071EA3228AB9750061D05B /* AXCircleProgressView.m in Sources */,
 				AA6384BC22894CC50033A125 /* AppDelegate.m in Sources */,
+				AA071E89228A9F450061D05B /* NJKWebViewProgress.m in Sources */,
+				AA071EB3228ABB990061D05B /* AXSpinningWaitCursor.m in Sources */,
+				AA071E8A228A9F450061D05B /* NJKWebViewProgressView.m in Sources */,
+				AA071EA6228AB9750061D05B /* AXPracticalHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +557,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5U5763E89G;
 				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -357,6 +575,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5U5763E89G;
 				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
