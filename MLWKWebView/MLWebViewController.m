@@ -237,6 +237,11 @@ static inline BOOL ML_WEB_VIEW_NOT_USING_WEB_KIT() {
 
 @implementation MLWebViewController
 
+#pragma mark - Prefer
+- (UIStatusBarStyle)preferredStatusBarStyle {
+    return UIStatusBarStyleLightContent;
+}
+
 #pragma mark - Life cycle
 - (instancetype)init {
     if (self = [super init]) {
@@ -396,6 +401,8 @@ static inline BOOL ML_WEB_VIEW_NOT_USING_WEB_KIT() {
     if (self.navigationController) {
         [self updateFrameOfProgressView];
         [self.navigationController.navigationBar addSubview:self.progressView];
+        // add navigation bar
+        [self.navigationController setNavigationBarHidden:NO animated:YES];
     }
     
     if (_navigationType == MLWebViewNavigationTypeToolItem) {
@@ -624,9 +631,9 @@ static inline BOOL ML_WEB_VIEW_NOT_USING_WEB_KIT() {
     // Set auto layout enabled.
     _webView.translatesAutoresizingMaskIntoConstraints = NO;
     if (_enabledWebViewUIDelegate) _webView.UIDelegate = self;
-        _webView.navigationDelegate = self;
-        // Obverse the content offset of the scroll view.
-        [_webView addObserver:self forKeyPath:@"scrollView.contentOffset" options:NSKeyValueObservingOptionNew context:NULL];
+    _webView.navigationDelegate = self;
+    // Obverse the content offset of the scroll view.
+    [_webView addObserver:self forKeyPath:@"scrollView.contentOffset" options:NSKeyValueObservingOptionNew context:NULL];
     // Obverse title. Fix issue: https://github.com/devedbox/MLWebViewController/issues/35
     [_webView addObserver:self forKeyPath:@"title" options:NSKeyValueObservingOptionNew context:NULL];
     return _webView;
@@ -642,7 +649,7 @@ static inline BOOL ML_WEB_VIEW_NOT_USING_WEB_KIT() {
     _progressView.ml_hiddenWhenProgressApproachFullSize = YES;
     _progressView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleTopMargin;
     // Set the web view controller to progress view.
-    __weak typeof(self) wself = self;
+    __weak __typeof(self) wself = self;
     _progressView.ml_webViewController = wself;
     return _progressView;
 }
@@ -1552,9 +1559,9 @@ static inline BOOL ML_WEB_VIEW_NOT_USING_WEB_KIT() {
             [self pushCurrentSnapshotViewWithRequest:request];
             break;
         }
-            default: {
-                break;
-            }
+        default: {
+            break;
+        }
     }
     if (_navigationType == MLWebViewNavigationTypeBarItem) {
         [self updateNavigationItems];
@@ -1830,7 +1837,7 @@ static inline BOOL ML_WEB_VIEW_NOT_USING_WEB_KIT() {
 
 - (void)updateNavigationItems {
     [self.navigationItem setLeftBarButtonItems:nil animated:NO];
-    if (self.webView.canGoBack/* || self.webView.backForwardList.backItem*/) {// Web view can go back means a lot requests exist.
+    if (self.webView.canGoBack) {// Web view can go back means a lot requests exist.
         UIBarButtonItem *spaceButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:nil action:nil];
         spaceButtonItem.width = -6.5;
         self.navigationController.interactivePopGestureRecognizer.enabled = NO;
@@ -1857,7 +1864,7 @@ static inline BOOL ML_WEB_VIEW_NOT_USING_WEB_KIT() {
 
 - (void)hookWebContentCommitPreviewHandler {
     // Find the `WKContentView` in the webview.
-    __weak typeof(self) wself = self;
+    __weak __typeof(self) wself = self;
     for (UIView *_view in _webView.scrollView.subviews) {
         if ([_view isKindOfClass:NSClassFromString(@"WKContentView")]) {
             id _previewItemController = object_getIvar(_view, class_getInstanceVariable([_view class], "_previewItemController"));
